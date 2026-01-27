@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ABBA | Servicio, Refacción, Logística y Transportes</title>
+  <meta name="description" content="Tu carga segura con nosotros. Soluciones eficientes, soporte 24/7 y logística integral para distribución nacional." />
+
+  <!-- Open Graph (para compartir en WhatsApp/Facebook) -->
+  <meta property="og:title" content="ABBA | Servicio, Refacción, Logística y Transportes" />
+  <meta property="og:description" content="Tu carga segura con nosotros. Soluciones eficientes, soporte 24/7 y logística integral." />
+  <meta property="og:type" content="website" />
+  <!-- Sube una imagen y ponla aquí si quieres -->
+  <!-- <meta property="og:image" content="https://TU-USUARIO.github.io/TU-REPO/assets/og.jpg" /> -->
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root{
+      /* Ajusta aquí si quieres clavar el look navy/naranja del deck */
+      --abba-navy: #0b2a3b;
+      --abba-orange: #f59e0b;
+    }
+    .text-abba-navy{ color: var(--abba-navy); }
+    .bg-abba-navy{ background-color: var(--abba-navy); }
+    .border-abba-navy{ border-color: var(--abba-navy); }
+    .bg-abba-orange{ background-color: var(--abba-orange); }
+    .ring-abba-orange{ --tw-ring-color: var(--abba-orange); }
+    .gradient-hero{
+      background:
+        radial-gradient(900px 420px at 20% 10%, rgba(245,158,11,.20), transparent 60%),
+        radial-gradient(700px 420px at 80% 20%, rgba(11,42,59,.20), transparent 55%),
+        linear-gradient(180deg, rgba(11,42,59,.06), rgba(11,42,59,.02));
+    }
+    .soft-shadow{ box-shadow: 0 18px 50px rgba(2,8,23,.10); }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 antialiased">
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 bg-white/85 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <a href="#inicio" class="flex items-center gap-3">
+        <!-- Logo opcional -->
+        <div class="w-10 h-10 rounded-xl bg-abba-navy text-white grid place-items-center font-bold">AB</div>
+        <div class="leading-tight">
+          <div class="font-extrabold tracking-tight text-abba-navy">ABBA</div>
+          <div class="text-xs text-slate-600">Servicio · Refacción · Logística · Transportes</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="hover:text-abba-navy text-slate-700" href="#servicios">Servicios</a>
+        <a class="hover:text-abba-navy text-slate-700" href="#valores">Valores</a>
+        <a class="hover:text-abba-navy text-slate-700" href="#historia">Historia</a>
+        <a class="hover:text-abba-navy text-slate-700" href="#porque">¿Por qué ABBA?</a>
+        <a class="hover:text-abba-navy text-slate-700" href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <!-- WhatsApp: reemplaza el número -->
+        <a
+          href="https://wa.me/521XXXXXXXXXX?text=Hola%20ABBA%2C%20me%20interesa%20una%20cotizaci%C3%B3n."
+          target="_blank" rel="noopener"
+          class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-xl bg-abba-navy text-white font-semibold hover:opacity-95"
+        >
+          WhatsApp
+        </a>
+        <a href="#contacto" class="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-abba-orange text-slate-900 font-semibold hover:opacity-95">
+          Cotizar
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="gradient-hero">
+    <div class="max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="inline-flex items-center gap-2 text-sm font-semibold text-abba-navy bg-white border border-slate-200 px-3 py-1 rounded-full">
+          <span class="w-2 h-2 rounded-full bg-abba-orange"></span>
+          TU CARGA SEGURA CON NOSOTROS
+        </p>
+
+        <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight text-abba-navy">
+          Servicio, Refacción, Logística y Transportes <span class="text-slate-900">ABBA</span>
+        </h1>
+
+        <p class="mt-4 text-lg text-slate-700">
+          En ABBA, somos líderes en el sector, ofreciendo soluciones eficientes que se adaptan a las necesidades de nuestros clientes. :contentReference[oaicite:2]{index=2}
+        </p>
+
+        <p class="mt-3 text-slate-700">
+          Nos hemos posicionado como un referente en el mercado gracias a nuestra dedicación a la calidad y excelencia operativa. :contentReference[oaicite:3]{index=3}
+        </p>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contacto" class="px-5 py-3 rounded-2xl bg-abba-orange font-semibold text-slate-900 hover:opacity-95">
+            Solicitar cotización
+          </a>
+          <a href="#servicios" class="px-5 py-3 rounded-2xl border border-slate-300 font-semibold text-slate-800 hover:bg-white">
+            Ver servicios
+          </a>
+        </div>
+
+        <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="p-4 rounded-2xl bg-white soft-shadow">
+            <div class="text-sm text-slate-500">Soporte</div>
+            <div class="font-extrabold text-abba-navy">24/7</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white soft-shadow">
+            <div class="text-sm text-slate-500">Cobertura</div>
+            <div class="font-extrabold text-abba-navy">Nacional</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white soft-shadow">
+            <div class="text-sm text-slate-500">Gestión</div>
+            <div class="font-extrabold text-abba-navy">GPS</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white soft-shadow">
+            <div class="text-sm text-slate-500">Enfoque</div>
+            <div class="font-extrabold text-abba-navy">Personalizado</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="relative">
+        <div class="absolute -inset-2 rounded-[28px] bg-abba-navy/10 blur-2xl"></div>
+
+        <div class="relative rounded-[28px] overflow-hidden bg-white soft-shadow border border-slate-200">
+          <!-- Si subes una imagen a /assets/hero.jpg se mostrará aquí -->
+          <div class="aspect-[4/3] bg-slate-100 grid place-items-center">
+            <img
+              src="assets/hero.jpg"
+              alt="Logística ABBA"
+              class="w-full h-full object-cover"
+              onerror="this.style.display='none'; this.parentElement.classList.add('bg-gradient-to-br','from-slate-50','to-slate-200'); this.parentElement.innerHTML='<div class=&quot;p-10 text-center&quot;><div class=&quot;text-2xl font-extrabold text-abba-navy&quot;>ABBA</div><div class=&quot;mt-2 text-slate-600&quot;>Sube una imagen en <span class=&quot;font-mono text-sm&quot;>/assets/hero.jpg</span></div></div>';"
+            />
+          </div>
+
+          <div class="p-6">
+            <div class="flex items-start gap-3">
+              <div class="w-11 h-11 rounded-2xl bg-abba-navy text-white grid place-items-center font-extrabold">✓</div>
+              <div>
+                <div class="font-extrabold text-abba-navy">Compromiso y Resultados</div>
+                <div class="text-sm text-slate-600">
+                  Soluciones eficientes, estándares altos y operación enfocada en tiempos de entrega.
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-3">
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <div class="font-bold text-slate-900">Tecnología</div>
+                <div class="text-sm text-slate-600">Monitoreo y rastreo + coordinación GPS.</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <div class="font-bold text-slate-900">Optimización</div>
+                <div class="text-sm text-slate-600">Consolidación de carga para optimizar costos.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-end justify-between gap-6 flex-wrap">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-abba-navy">
+            Servicios de Logística Integral para Distribución Nacional
+          </h2>
+          <p class="mt-3 text-slate-700 max-w-3xl">
+            Gestión y planificación logística, diseño de solución logística y gestión de inventarios con monitoreo en tiempo real. :contentReference[oaicite:4]{index=4}
+          </p>
+        </div>
+
+        <a href="#contacto" class="px-5 py-3 rounded-2xl bg-abba-navy text-white font-semibold hover:opacity-95">
+          Agendar llamada
+        </a>
+      </div>
+
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <div class="w-12 h-12 rounded-2xl bg-abba-orange/20 grid place-items-center text-abba-navy font-extrabold">1</div>
+          <h3 class="mt-4 font-extrabold text-xl">Análisis de necesidades</h3>
+          <p class="mt-2 text-slate-700">
+            Análisis de necesidades del cliente para cubrir distribución a varios puntos de venta ubicados en diferentes ciudades del país. :contentReference[oaicite:5]{index=5}
+          </p>
+        </div>
+
+        <div class="p-6 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <div class="w-12 h-12 rounded-2xl bg-abba-orange/20 grid place-items-center text-abba-navy font-extrabold">2</div>
+          <h3 class="mt-4 font-extrabold text-xl">Diseño de solución logística</h3>
+          <ul class="mt-3 space-y-2 text-slate-700 list-disc pl-5">
+            <li>Determinación de rutas más eficientes. :contentReference[oaicite:6]{index=6}</li>
+            <li>Evaluación de puntos de entrega. :contentReference[oaicite:7]{index=7}</li>
+            <li>Planificación del tipo de transporte necesario. :contentReference[oaicite:8]{index=8}</li>
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <div class="w-12 h-12 rounded-2xl bg-abba-orange/20 grid place-items-center text-abba-navy font-extrabold">3</div>
+          <h3 class="mt-4 font-extrabold text-xl">Gestión de inventarios</h3>
+          <p class="mt-2 text-slate-700">
+            Monitoreo en tiempo real de existencias para saber cuándo reabastecer inventario. :contentReference[oaicite:9]{index=9}
+          </p>
+        </div>
+      </div>
+
+      <!-- Ejecución del plan -->
+      <div class="mt-12 p-8 rounded-[32px] bg-slate-50 border border-slate-200">
+        <h3 class="text-2xl font-extrabold text-abba-navy">Ejecución del plan logístico</h3>
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <ul class="space-y-3 text-slate-700">
+            <li class="flex gap-3">
+              <span class="mt-1 w-2.5 h-2.5 rounded-full bg-abba-orange"></span>
+              <span>Coordinación del transporte con sistemas GPS. :contentReference[oaicite:10]{index=10}</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-1 w-2.5 h-2.5 rounded-full bg-abba-orange"></span>
+              <span>Consolidación de carga para optimizar costos. :contentReference[oaicite:11]{index=11}</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-1 w-2.5 h-2.5 rounded-full bg-abba-orange"></span>
+              <span>Monitoreo y rastreo para conocer ubicación exacta y respetar tiempos de entrega. :contentReference[oaicite:12]{index=12}</span>
+            </li>
+          </ul>
+
+          <div class="p-6 rounded-3xl bg-white border border-slate-200">
+            <div class="font-extrabold text-abba-navy">Logística inversa</div>
+            <p class="mt-2 text-slate-700">
+              Gestión de devoluciones: recolección en punto de venta y retorno a almacén central o centros de reparación designados. :contentReference[oaicite:13]{index=13}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entrega final -->
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <h4 class="font-extrabold text-abba-navy">Entrega puntual</h4>
+          <p class="mt-2 text-slate-700">
+            Entregas dentro de ventanas de tiempo; recepción registrada con firma electrónica o digital. :contentReference[oaicite:14]{index=14}
+          </p>
+        </div>
+        <div class="p-6 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <h4 class="font-extrabold text-abba-navy">Reporte post-entrega</h4>
+          <p class="mt-2 text-slate-700">
+            Informe con salida, llegada, estado e incidencias; evaluación de ruta y servicio para mejoras. :contentReference[oaicite:15]{index=15}
+          </p>
+        </div>
+        <div class="p-6 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <h4 class="font-extrabold text-abba-navy">Mejora continua</h4>
+          <p class="mt-2 text-slate-700">
+            Análisis de datos para mejorar eficiencia, reducir costos y optimizar tiempos de entrega. :contentReference[oaicite:16]{index=16}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section id="valores" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-abba-navy">Nuestros Valores</h2>
+
+      <div class="mt-10 grid md:grid-cols-2 gap-6">
+        <div class="p-7 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <h3 class="font-extrabold text-xl">Compromiso</h3>
+          <p class="mt-2 text-slate-700">
+            Nos enfocamos en entender a nuestros clientes y ofrecer soluciones que superen sus expectativas. :contentReference[oaicite:17]{index=17}
+          </p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <h3 class="font-extrabold text-xl">Calidad</h3>
+          <p class="mt-2 text-slate-700">
+            Implementamos los más altos estándares en cada fase de nuestro trabajo, garantizando resultados óptimos. :contentReference[oaicite:18]{index=18}
+          </p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <h3 class="font-extrabold text-xl">Innovación</h3>
+          <p class="mt-2 text-slate-700">
+            Invertimos constantemente en tecnología de punta para mejorar procesos y ofrecer lo mejor del mercado. :contentReference[oaicite:19]{index=19}
+          </p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 soft-shadow bg-white">
+          <h3 class="font-extrabold text-xl">Sustentabilidad</h3>
+          <p class="mt-2 text-slate-700">
+            Nos preocupamos por el impacto ambiental y trabajamos con prácticas responsables que benefician a futuras generaciones. :contentReference[oaicite:20]{index=20}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-abba-navy">Nuestra Historia</h2>
+        <p class="mt-4 text-slate-700">
+          Nacimos para transformar la industria con servicios de excelencia y profesionalismo. :contentReference[oaicite:21]{index=21}
+        </p>
+        <p class="mt-3 text-slate-700">
+          Detectamos la falta de soluciones confiables y rápidas, por lo que desde nuestros inicios nos comprometimos a cambiar esa realidad. :contentReference[oaicite:22]{index=22}
+        </p>
+        <p class="mt-3 text-slate-700">
+          Nos adaptamos a necesidades y presupuestos, ofreciendo opciones flexibles sin comprometer calidad; nuestra meta es proporcionar un servicio eficiente y de alto valor. :contentReference[oaicite:23]{index=23}
+        </p>
+        <p class="mt-3 text-slate-700 font-semibold">
+          Confía en ABBA para elevar tus operaciones al siguiente nivel. ¡Contáctanos hoy y descubre cómo podemos impulsar tu éxito! :contentReference[oaicite:24]{index=24}
+        </p>
+      </div>
+
+      <div class="p-8 rounded-[32px] bg-white border border-slate-200 soft-shadow">
+        <div class="text-sm font-semibold text-slate-600">Hoy</div>
+        <div class="mt-2 text-2xl font-extrabold text-abba-navy">Servicios personalizados + tecnología avanzada</div>
+        <p class="mt-3 text-slate-700">
+          Integramos tecnología avanzada y un equipo altamente capacitado para garantizar resultados superiores. :contentReference[oaicite:25]{index=25}
+        </p>
+
+        <div class="mt-6 grid sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900">Enfoque</div>
+            <div class="text-sm text-slate-600">Soluciones flexibles y a la medida.</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900">Estandarización</div>
+            <div class="text-sm text-slate-600">Protocolos de entrega y reporte.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Por qué elegirnos -->
+  <section id="porque" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-abba-navy">¿Por qué elegirnos?</h2>
+
+      <div class="mt-10 grid md:grid-cols-2 gap-6">
+        <div class="p-7 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <div class="font-extrabold text-xl">Experiencia comprobada</div>
+          <p class="mt-2 text-slate-700">Experiencia comprobada en el sector. :contentReference[oaicite:26]{index=26}</p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <div class="font-extrabold text-xl">Tecnología de última generación</div>
+          <p class="mt-2 text-slate-700">Equipos y tecnología de última generación. :contentReference[oaicite:27]{index=27}</p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <div class="font-extrabold text-xl">Soporte 24/7</div>
+          <p class="mt-2 text-slate-700">Soporte técnico especializado y asistencia 24/7. :contentReference[oaicite:28]{index=28}</p>
+        </div>
+        <div class="p-7 rounded-3xl border border-slate-200 bg-white soft-shadow">
+          <div class="font-extrabold text-xl">Soluciones personalizadas</div>
+          <p class="mt-2 text-slate-700">Soluciones personalizadas adaptadas a cada cliente. :contentReference[oaicite:29]{index=29}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="p-8 md:p-10 rounded-[36px] bg-white border border-slate-200 soft-shadow grid lg:grid-cols-2 gap-10">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-abba-navy">Cotiza tu servicio</h2>
+          <p class="mt-3 text-slate-700">
+            Déjanos tus datos y el tipo de operación (rutas, puntos de entrega, tipo de transporte, inventarios).
+          </p>
+
+          <div class="mt-6 space-y-3 text-sm text-slate-700">
+            <div class="flex gap-2">
+              <span class="font-bold text-abba-navy">WhatsApp:</span>
+              <span>+52 1 XXX XXX XXXX</span>
+            </div>
+            <div class="flex gap-2">
+              <span class="font-bold text-abba-navy">Email:</span>
+              <span>contacto@tudominio.com</span>
+            </div>
+            <div class="flex gap-2">
+              <span class="font-bold text-abba-navy">Cobertura:</span>
+              <span>Distribución nacional</span>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <a
+              class="inline-flex items-center justify-center px-5 py-3 rounded-2xl bg-abba-navy text-white font-semibold hover:opacity-95"
+              href="https://wa.me/521XXXXXXXXXX?text=Hola%20ABBA%2C%20quiero%20cotizar%20log%C3%ADstica%20y%20transporte."
+              target="_blank" rel="noopener"
+            >
+              Cotizar por WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <form id="leadForm" class="space-y-4" autocomplete="on">
+          <div>
+            <label class="block text-sm font-semibold text-slate-700">Nombre</label>
+            <input name="nombre" required
+              class="mt-1 w-full px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-4 ring-abba-orange/40"
+              placeholder="Tu nombre" />
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-semibold text-slate-700">Teléfono</label>
+              <input name="telefono" required
+                class="mt-1 w-full px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-4 ring-abba-orange/40"
+                placeholder="+52 ..." />
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-slate-700">Email</label>
+              <input name="email" type="email" required
+                class="mt-1 w-full px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-4 ring-abba-orange/40"
+                placeholder="correo@empresa.com" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-slate-700">¿Qué necesitas?</label>
+            <textarea name="mensaje" rows="4" required
+              class="mt-1 w-full px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-4 ring-abba-orange/40"
+              placeholder="Ej: distribución nacional, rutas, puntos de entrega, tipo de transporte, inventarios, logística inversa..."></textarea>
+          </div>
+
+          <button type="submit"
+            class="w-full px-5 py-3 rounded-2xl bg-abba-orange text-slate-900 font-extrabold hover:opacity-95">
+            Enviar solicitud
+          </button>
+
+          <p id="formNote" class="text-xs text-slate-500">
+            Este formulario genera un correo vía tu cliente de email (no guarda datos en servidor).
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 border-t border-slate-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600">
+      <div>© <span id="year"></span> ABBA · Servicio, Refacción, Logística y Transportes</div>
+      <div class="flex gap-4">
+        <a class="hover:text-abba-navy" href="#inicio">Inicio</a>
+        <a class="hover:text-abba-navy" href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple "mailto" submit (sin backend)
+    const leadForm = document.getElementById('leadForm');
+    leadForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(leadForm);
+
+      const nombre = (data.get('nombre') || '').toString().trim();
+      const telefono = (data.get('telefono') || '').toString().trim();
+      const email = (data.get('email') || '').toString().trim();
+      const mensaje = (data.get('mensaje') || '').toString().trim();
+
+      // Cambia este correo:
+      const to = 'contacto@tudominio.com';
+      const subject = encodeURIComponent('Nueva solicitud de cotización - ABBA');
+      const body = encodeURIComponent(
+        `Nombre: ${nombre}\nTeléfono: ${telefono}\nEmail: ${email}\n\nNecesidad:\n${mensaje}\n`
+      );
+
+      window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+      leadForm.reset();
+    });
+  </script>
+</body>
+</html>
